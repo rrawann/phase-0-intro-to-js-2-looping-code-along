@@ -10,9 +10,9 @@ function writeCards(names) {
     return messages;
 }
 
-function countDown(positiveNumber){
-    while(positiveNumber >= 0) {
-        console.log(positiveNumber); 
-        positiveNumber--;       
+function countDown(number){
+    while(number >= 0) {
+        console.log(number); 
+        number--;       
     }
 }
